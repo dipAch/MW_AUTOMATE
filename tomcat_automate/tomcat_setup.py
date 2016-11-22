@@ -59,7 +59,7 @@ if __name__ == '__main__':
     # Perform the Operations in a sequential manner
     install_java()
     download_tomcat()
-    untar('apache-tomcat-7.0.73')
+    untar('apache-tomcat-7.0.73.tar.gz')
     move_tomcat_binary()
     configure_bashrc()
 
